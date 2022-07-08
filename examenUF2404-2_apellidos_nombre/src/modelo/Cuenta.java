@@ -99,7 +99,7 @@ public class Cuenta {
 		 * @return boolean con el resultado de la operación true si se ha podido realizar la operación o false en caso 
 		 * contrario
 		 */
-		public boolean retirarACrédito(double cantidad) {
+		public boolean retirarACredito(double cantidad) {
 			if (Math.abs(this.saldo-cantidad) <= this.creditoMax) {
 				this.saldo=this.saldo-cantidad;
 				return true;

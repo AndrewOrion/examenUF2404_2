@@ -48,7 +48,7 @@ public class Persona {
 		
 		@Override
 		public String toString() {
-			return "Persona [nombre=" + nombre + ", edad=" + edad + ", dni=" + dni + "]";
+			return "Persona [nombre=" + nombre + "\nedad=" + edad + "\ndni=" + dni + "]";
 		}
 
 		public boolean esMayorDeEdad() {
